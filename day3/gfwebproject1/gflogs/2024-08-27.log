@@ -1,0 +1,13 @@
+2024-08-27 18:31:04.143 [INFO] pid[44340]: http server started listening on [:8199]
+2024-08-27 18:31:04.143 [INFO] {6c68271e6ca9ef1740ca0d7257461890} openapi specification is disabled
+
+  ADDRESS | METHOD | ROUTE  |     HANDLER     | MIDDLEWARE  
+----------|--------|--------|-----------------|-------------
+  :8199   | ALL    | /      | main.main.func1 |             
+----------|--------|--------|-----------------|-------------
+  :8199   | ALL    | /panic | main.main.func2 |             
+----------|--------|--------|-----------------|-------------
+  :8199   | POST   | /post  | main.main.func3 |             
+----------|--------|--------|-----------------|-------------
+
+2024-08-27 18:38:22.035 [INFO] pid[44340]: all servers shutdown

@@ -1,0 +1,6 @@
+2024-08-27 18:32:40.021 {0b997c7182a9ef1743ca0d7262a91fcf} 500 "GET http ec2-3-16-36-28.us-east-2.compute.amazonaws.com:8199 /panic HTTP/1.1" 477.550, 103.181.1.35, "", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36", 68, "Internal Panic", ""
+Stack:
+1. exception recovered: 你崩溃了！
+   1).  main.main.func2
+        /home/ubuntu/codeproject/golang-learn/day3/gfwebproject1/main.go:21
+
